@@ -46,17 +46,18 @@ $ git init（ローカルリポジトリ作成）
 $ git add README.md（mdファイル追加）
 
 **＜ここで、あなたは誰ですか状態のエラーが表示される場合＞**  
-上記、gitの初期設定が完了していない、gitに登録しているアドレス、ユーザーネームを指定
-
-$git config --global user.email ここに自分のアドレス  
-$git config --global user.name ここに自分の名前
-
 > Please tell me who you are.
 > 
 > Run
 > 
 >   git config --global user.email "you@example.com"  
 >   git config --global user.name "Your Name"
+
+上記、gitの初期設定が完了していない、  
+gitに登録しているアドレス、ユーザーネームを指定
+
+$git config --global user.email ここに自分のアドレス  
+$git config --global user.name ここに自分の名前
 
 $ git commit -m "first commit"（コミットコメント）  
 $ git remote add origin https://github.com/kazumi-o/HTML_1.git  
