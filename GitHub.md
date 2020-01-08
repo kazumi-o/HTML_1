@@ -52,16 +52,16 @@ $ git add README.md（mdファイル追加）
 $git config --global user.email ここに自分のアドレス  
 $git config --global user.name ここに自分の名前
 
-***
+**********
 Please tell me who you are.
 
 Run
 
   git config --global user.email "you@example.com"  
   git config --global user.name "Your Name"
-***
+**********
 
-$ git commit -m "first commit"  
+$ git commit -m "first commit"（コミットコメント）  
 $ git remote add origin https://github.com/kazumi-o/HTML_1.git  
 $ git push -u origin master
 
