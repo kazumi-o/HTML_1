@@ -15,5 +15,3 @@ https://github.com/tokkonopapa/Markdown
 Git、バージョン管理システムのリポジトリの管理方法の違い
 ------
 https://qiita.com/jesus_isao/items/63557eba36819faa4ad9
-
-000

@@ -10,8 +10,6 @@ $ cd Desktop/HTML_1/
 
 ローカル：/Desktop/HTML_1 (master)
 
-000
-
 ブラウザ：https://github.com/kazumi-o/HTML_1
 
 記述
