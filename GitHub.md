@@ -32,16 +32,15 @@ https://fjord.jp/kuroigamen/7.html
 
 設定方法
 ------
-1. Git Bash(windows) https://gitforwindows.org/
-2. GitHub登録　https://github.co.jp/
-3. 初期設定
+1. Git Bash(windows) https://gitforwindows.org/  
+2. GitHub登録　https://github.co.jp/  
+3. 初期設定  
 gitに登録しているアドレスと、ユーザーネームを指定
 
 $git config --global user.email ここに自分のアドレス  
 $git config --global user.name ここに自分の名前
 
-4. Gitコミット
-
+4. Gitコミット  
 echo "# HTML_1" >> README.md（ローカルフォルダ作成⇒mdファイル作成）  
 $ git init（ローカルリポジトリ作成）  
 $ git add README.md（mdファイル追加）
