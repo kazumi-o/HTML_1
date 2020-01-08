@@ -32,24 +32,21 @@ https://fjord.jp/kuroigamen/7.html
 
 設定方法
 ------
-* Git Bash(windows) https://gitforwindows.org/
-
-* GitHub登録　https://github.co.jp/
-
-* 初期設定
+1. Git Bash(windows) https://gitforwindows.org/
+2. GitHub登録　https://github.co.jp/
+3. 初期設定
 gitに登録しているアドレスと、ユーザーネームを指定
 
 $git config --global user.email ここに自分のアドレス  
 $git config --global user.name ここに自分の名前
 
-* Gitコミット
+4. Gitコミット
 
 echo "# HTML_1" >> README.md（フォルダ作成⇒mdファイル作成）  
 $ git init（ローカルリポジトリ作成）  
 $ git add README.md（mdファイル追加）
 
-**ここで、あなたは誰ですか状態のエラーが表示される場合**
-
+**ここで、あなたは誰ですか状態のエラーが表示される場合**  
 上記、gitの初期設定が完了していない、gitに登録しているアドレス、ユーザーネームを指定
 
 $git config --global user.email ここに自分のアドレス  
@@ -64,11 +61,9 @@ Run
   git config --global user.name "Your Name"
 ***
 
-$ git commit -m "first commit"
-
-$ git remote add origin https://github.com/kazumi-o/HTML_1.git
-
+$ git commit -m "first commit"  
+$ git remote add origin https://github.com/kazumi-o/HTML_1.git  
 $ git push -u origin master
 
-* ポップアップログインが開いたらサインイン
+5. ポップアップログインが開いたらサインイン  
 登録しているアドレス、ユーザーネームを指定
