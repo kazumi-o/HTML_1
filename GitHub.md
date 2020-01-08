@@ -42,7 +42,7 @@ $git config --global user.name ここに自分の名前
 
 4. Gitコミット
 
-echo "# HTML_1" >> README.md（フォルダ作成⇒mdファイル作成）  
+echo "# HTML_1" >> README.md（ローカルフォルダ作成⇒mdファイル作成）  
 $ git init（ローカルリポジトリ作成）  
 $ git add README.md（mdファイル追加）
 
@@ -52,14 +52,12 @@ $ git add README.md（mdファイル追加）
 $git config --global user.email ここに自分のアドレス  
 $git config --global user.name ここに自分の名前
 
-**********
-Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"  
-  git config --global user.name "Your Name"
-**********
+> Please tell me who you are.
+> 
+> Run
+> 
+>   git config --global user.email "you@example.com"  
+>   git config --global user.name "Your Name"
 
 $ git commit -m "first commit"（コミットコメント）  
 $ git remote add origin https://github.com/kazumi-o/HTML_1.git  
