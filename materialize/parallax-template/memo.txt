@@ -1,0 +1,7 @@
+Materialize
+https://materializecss.com/
+
+①スライダーからのページリンクの方法は正しいのか？　→　<a>をつけてみた
+ <a href="#"><img src="https://lorempixel.com/580/250/nature/1"><!-- random image --></a>
+https://materializecss.com/media.html
+
